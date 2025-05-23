@@ -1,7 +1,7 @@
 ---
-title: "JavaScript:Funciones y ambito de las variables"
-description: "Funciones y Comprendiendo Variables"
-pubDate: 'Apr 08 2024'
+title: "Los 7 Pasos Prácticos de la Ciencia de Datos"
+description: "Ciencia de datos en la práctica"
+pubDate: 'May 22 2025'
 heroImage: "../img/information.png"
 ---
 
@@ -172,4 +172,4 @@ Este proceso no es lineal, es iterativo. Un hallazgo en el EDA puede llevar a aj
 
 Dominar estos pasos, junto con las herramientas y el pensamiento crítico, permite transformar el ruido de los datos en conocimiento y acción. ¡El futuro está impulsado por los datos y la ciencia de datos es la fuerza que lo moldea!
 
-![javascript image](/img/technology.png)
+![javascript image](/img/technology.jpg)
