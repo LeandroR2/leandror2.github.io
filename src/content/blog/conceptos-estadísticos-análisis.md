@@ -1,7 +1,7 @@
 ---
 title: "Conceptos Estadísticos y Análisis para la Ciencia de Datos en el Negocio"
 description: "Para el analista de datos y el científico de datos, comprender y aplicar los principios estadísticos no es solo una habilidad deseable, sino una necesidad imperativa para transformar datos crudos en inteligencia de negocio accionable y fiable"
-pubDate: 'May 24 2025'
+pubDate: 'May 23 2025'
 heroImage: "../img/charts.png"
 ---
 
@@ -19,7 +19,7 @@ La estadística descriptiva se ocupa de organizar, resumir y presentar los datos
 
  **Medidas de Tendencia Central:** Indican el "centro" o el valor típico de un conjunto de datos.
    Media (xˉ): El promedio aritmético, sensible a valores atípicos.\
-    xˉ=n∑i=1n​xi​​\
+    $xˉ=n∑i=1n​xi​$ ​\
 \
     Aplicación: Ingreso promedio por cliente.
    Mediana: El valor central cuando los datos están ordenados, robusta frente a valores atípicos.\
@@ -28,7 +28,7 @@ La estadística descriptiva se ocupa de organizar, resumir y presentar los datos
     Aplicación: Producto más vendido en una categoría.
  **Medidas de Dispersión:** Cuantifican la variabilidad o la extensión de los datos.
    Varianza (σ2 o s2): El promedio de las desviaciones cuadráticas de la media.\
-    s2=n−1∑i=1n​(xi​−xˉ)2​\
+    $s2=n−1∑i=1n​(xi​−xˉ)2$​\
 \
     Aplicación: Volatilidad en los rendimientos de una inversión.
    Desviación Estándar (σ o s): La raíz cuadrada de la varianza, en las mismas unidades que los datos.\
@@ -39,7 +39,7 @@ La estadística descriptiva se ocupa de organizar, resumir y presentar los datos
 #### **2. Estadística Inferencial: Extrapolando del Conocimiento Parcial**
 La estadística inferencial utiliza datos de una muestra para hacer inferencias o predicciones sobre una población más grande. Es la base para tomar decisiones basadas en evidencia limitada.
 
-![javascript image](/img/statistics.jpg)
+![javascript image](/img/statistics-5.jpg)
 
  **Población y Muestra:**
    **Población:** El conjunto completo de individuos o elementos de interés.
@@ -59,7 +59,7 @@ Aquí es donde la teoría estadística cobra vida en el contexto empresarial, pe
 La regresión es una técnica poderosa para modelar la relación entre una variable dependiente (objetivo) y una o más variables independientes (predictoras).
 
  Regresión Lineal Simple: Modela la relación lineal entre dos variables.\
-  Y=β0​+β1​X+ϵ\
+  $Y=β0​+β1​X+ϵ$ \
 \
   Donde:
    Y: Variable dependiente (ej. Ventas).
@@ -127,4 +127,4 @@ En resumen, mientras que las herramientas y los algoritmos de Machine Learning s
 
 La capacidad de aplicar estos conceptos estadísticos para formular preguntas de negocio, diseñar experimentos, interpretar resultados y comunicar insights de manera efectiva es lo que distingue a un analista de datos de un mero operador de herramientas, y es la clave para impulsar el éxito empresarial en la economía basada en datos. La estadística no es solo una materia académica; es el lenguaje de la verdad en el mundo de los datos.
 
-![javascript image](/img/graph.jpg)
+![javascript image](/img/graph-01.jpg)
