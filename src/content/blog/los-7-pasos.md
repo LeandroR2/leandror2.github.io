@@ -19,17 +19,17 @@ Este es el punto de partida. Antes de tocar un solo dato, es crucial entender qu
 
 **¿Qué se hace?**
 
-* **Entender el Problema de Negocio:** Colaborar con los stakeholders para traducir una necesidad de negocio en una pregunta que pueda ser respondida con datos.
-* **Identificar Fuentes de Datos:** Determinar dónde residen los datos necesarios.
-* **Recopilación Inicial:** Extraer los datos de las fuentes identificadas.
+ **Entender el Problema de Negocio:** Colaborar con los stakeholders para traducir una necesidad de negocio en una pregunta que pueda ser respondida con datos.
+ **Identificar Fuentes de Datos:** Determinar dónde residen los datos necesarios.
+ **Recopilación Inicial:** Extraer los datos de las fuentes identificadas.
 
 **Tecnologías Comunes:**
 
-* **Bases de Datos Relacionales (SQL):** PostgreSQL, MySQL, SQL Server, Oracle
-* **Bases de Datos No Relacionales (NoSQL):** MongoDB, Cassandra, Redis
-* **Almacenes de Datos en la Nube:** Snowflake, Google BigQuery, Amazon Redshift
-* **APIs:** Twitter API, Google Maps API
-* **Web Scraping:** Scrapy, BeautifulSoup
+ **Bases de Datos Relacionales (SQL):** PostgreSQL, MySQL, SQL Server, Oracle
+ **Bases de Datos No Relacionales (NoSQL):** MongoDB, Cassandra, Redis
+ **Almacenes de Datos en la Nube:** Snowflake, Google BigQuery, Amazon Redshift
+ **APIs:** Twitter API, Google Maps API
+ **Web Scraping:** Scrapy, BeautifulSoup
 
 **Ejemplo Práctico:** Una empresa de telecomunicaciones quiere predecir qué clientes cancelarán su servicio. Recopilan datos del CRM, encuestas de satisfacción y registros de soporte.
 
@@ -41,19 +41,19 @@ Considerado por muchos como la fase más larga y crítica. Aquí los datos se tr
 
 **¿Qué se hace?**
 
-* Manejo de valores faltantes
-* Detección y tratamiento de outliers
-* Conversión de tipos de datos
-* Normalización y estandarización
-* Codificación de datos categóricos
-* Ingeniería de características
+ Manejo de valores faltantes
+ Detección y tratamiento de outliers
+ Conversión de tipos de datos
+ Normalización y estandarización
+ Codificación de datos categóricos
+ Ingeniería de características
 
 **Tecnologías Comunes:**
 
-* **Python:** Pandas, NumPy
-* **R:** dplyr, tidyr
-* **ETL:** Talend, Apache Nifi
-* **Nube:** AWS Glue, Google Dataflow
+ **Python:** Pandas, NumPy
+ **R:** dplyr, tidyr
+ **ETL:** Talend, Apache Nifi
+ **Nube:** AWS Glue, Google Dataflow
 
 **Ejemplo Práctico:** Imputar valores faltantes de "uso de datos" con la media, crear variable "antigüedad del cliente".
 
@@ -65,18 +65,18 @@ El científico de datos investiga los datos para descubrir patrones, anomalías,
 
 **¿Qué se hace?**
 
-* Estadísticas descriptivas
-* Visualización de datos
-* Identificación de patrones
-* Detección de anomalías
+ Estadísticas descriptivas
+ Visualización de datos
+ Identificación de patrones
+ Detección de anomalías
 
 **Tecnologías Comunes:**
 
 ![javascript image](/img/ai-generated.png)
 
-* **Python:** Matplotlib, Seaborn, Plotly
-* **R:** ggplot2
-* **BI:** Tableau, Power BI
+**Python:** Matplotlib, Seaborn, Plotly
+**R:** ggplot2
+**BI:** Tableau, Power BI
 
 **Ejemplo Práctico:** Visualizar uso de datos vs. satisfacción del cliente, identificar que contratos más cortos tienen mayor rotación.
 
@@ -88,15 +88,15 @@ Aplicar Machine Learning o estadística para resolver el problema de negocio.
 
 **¿Qué se hace?**
 
-* Selección del modelo (clasificación, regresión, clustering, reducción de dimensionalidad)
-* División de datos en entrenamiento y prueba
-* Entrenamiento del modelo
+ Selección del modelo (clasificación, regresión, clustering, reducción de dimensionalidad)
+ División de datos en entrenamiento y prueba
+ Entrenamiento del modelo
 
 **Tecnologías Comunes:**
 
-* **Python:** Scikit-learn, TensorFlow, Keras
-* **R:** caret, h2o
-* **Plataformas:** Apache Spark, H2O.ai
+ **Python:** Scikit-learn, TensorFlow, Keras
+ **R:** caret, h2o
+ **Plataformas:** Apache Spark, H2O.ai
 
 **Ejemplo Práctico:** Comparar Random Forest y Red Neuronal para predecir rotación.
 
@@ -108,16 +108,16 @@ Asegurarse de que el modelo es preciso y robusto.
 
 **¿Qué se hace?**
 
-* Evaluar con métricas específicas (precisión, F1, RMSE, etc.)
-* Validación cruzada
-* Ajuste de hiperparámetros
-* Análisis de errores
+ Evaluar con métricas específicas (precisión, F1, RMSE, etc.)
+ Validación cruzada
+ Ajuste de hiperparámetros
+ Análisis de errores
 
 **Tecnologías Comunes:**
 
-* **Python:** Scikit-learn (GridSearchCV)
-* **R:** caret
-* **MLOps:** MLflow
+ **Python:** Scikit-learn (GridSearchCV)
+ **R:** caret
+ **MLOps:** MLflow
 
 **Ejemplo Práctico:** Random Forest supera en F1 a Red Neuronal, se ajustan hiperparámetros para optimizarlo.
 
@@ -129,17 +129,17 @@ El modelo entra en producción y se mantiene su rendimiento.
 
 **¿Qué se hace?**
 
-* Despliegue como API
-* Integración con sistemas existentes
-* Monitoreo de precisión, latencia y deriva del modelo
-* Reentrenamiento si es necesario
+ Despliegue como API
+ Integración con sistemas existentes
+ Monitoreo de precisión, latencia y deriva del modelo
+ Reentrenamiento si es necesario
 
 **Tecnologías Comunes:**
 
-* **Frameworks Web:** Flask, Django, FastAPI
-* **Contenedores:** Docker, Kubernetes
-* **ML Cloud:** AWS SageMaker, Google AI Platform
-* **Monitoreo:** Prometheus, Grafana, MLflow
+ **Frameworks Web:** Flask, Django, FastAPI
+ **Contenedores:** Docker, Kubernetes
+ **ML Cloud:** AWS SageMaker, Google AI Platform
+ **Monitoreo:** Prometheus, Grafana, MLflow
 
 **Ejemplo Práctico:** API de Random Forest consultada por CRM; monitoreo alerta ante caída de precisión.
 
@@ -151,16 +151,16 @@ Traducir hallazgos técnicos a decisiones de negocio comprensibles.
 
 **¿Qué se hace?**
 
-* Storytelling con datos
-* Visualizaciones efectivas
-* Recomendaciones accionables
-* Presentaciones
+ Storytelling con datos
+ Visualizaciones efectivas
+ Recomendaciones accionables
+ Presentaciones
 
 **Tecnologías Comunes:**
 
-* **Presentaciones:** PowerPoint, Google Slides
-* **Notebooks:** Jupyter, Colab
-* **Dashboards:** Tableau, Power BI, Looker
+ **Presentaciones:** PowerPoint, Google Slides
+ **Notebooks:** Jupyter, Colab
+ **Dashboards:** Tableau, Power BI, Looker
 
 **Ejemplo Práctico:** Explicar al equipo de marketing que el modelo identifica con 85% de precisión a clientes en riesgo y proponer descuentos personalizados.
 
